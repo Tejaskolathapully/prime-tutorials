@@ -1,9 +1,8 @@
 <!DOCTYPE html>
- <html>
- <head>
+<html>
+     <head>
     <title>PRIME TUTORIALS</title>
-    <link rel= "stylesheet" type= "text/css" href="style.css">
-    <link rel="icon" type="image/x-icon" href="logo.jpg">
+    <link rel= "stylesheet" type= "text/css" href="css/style.css">
  </head>
  <body>
     <div class="main">
@@ -14,10 +13,10 @@
 
             <div class="menu">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#">SQL</a></li>
-                    <li><a href="py.html">Python</a></li>
-                    <li><a href="#">HTML</a></li>
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="#">SQL</a></li>
+                     <li><a href="py.html">PYTHON</a></li>
+                     <li><a href="#">HTML</a></li>
                      
                      <li><a href="aboutus.html">About  US</a</li>
                 </ul>
@@ -25,7 +24,11 @@
             
             <div class= "search">
                 <input class="srch" type="search" name="" placeholder="Type To search">
-                <a href="#"> <button class="btn">Search</button></a>
+                <a href="#"> <button class="btn" onclick="audio.play();">Search</button></a>
+                <script type="text/javascript">
+                    const audio = new Audio();
+                    audio.src="click.mp3";
+                </script>
             </div>
         </div>
         <div class="content">
@@ -36,11 +39,20 @@
                     <h2>LOGIN FORM</h2>
                     <input  type="email" name="email" placeholder="ENTER YOUR EMAIL HERE">
                     <input  type="password" name="" placeholder="ENTER YOUR PASSWORD">
-                    <button class="butn"><a href ="#">login</a></button>
+                    <button class="butn" onclick="audio.play();"><a href ="#">login</a></button>
+                    <script type="text/javascript">
+                        const audio = new Audio();
+                        audio.src="click.mp3";
+                    </script>
                     <p class="link">Don't have an account<br>
                     <a href="#">Signup Here</a></p>
                     <p class="liw">Log in with</p>
-
+                    <button class="git" onclick="audio.play();"><a href ="#">login WITH GITHUB</a></button>
+                    <script type="text/javascript">
+                        const audio = new Audio();
+                        audio.src="click.mp3";
+                    </script>
+                        
                 </div>
                 <div class="category-box">
                     <a class="branch-box-anchor" href="dog.html">
@@ -50,7 +62,7 @@
                             <p class="branch-text">SQL</p>
                         </div>
                     </a>
-                    <a class="branch-box-anchor" href="py.html">
+                    <a class="branch-box-anchor">
                         <div class="branch-box">
                             <img src="python.jpg"
                                 alt="" class="branch-img">
@@ -89,10 +101,10 @@
         <div class="foo2">
             <div class="projectby">
                 <p class="foo2-head">Project By</p>
-                <p class="foo2-item" style="margin-top: 10px;"><a href="https://github.com/Tejaskolathapully"></a>TEJAS KOLATHAPULLY</p>
-                <p class="foo2-item"><a href="https://github.com/Sarveshnair22"></a>SARVESH NAIR</p>
-                <p class="foo2-item"><a href="https://github.com/Jaydev56"></a>JAYADEV PILLAI</p>
-                <p class="foo2-item"><a href="https://github.com/bhavesh-bruhh"></a>BHAVESH NAIR</p>
+                <p class="foo2-item" style="margin-top: 10px;">TEJAS KOLATHAPULLY</p>
+                <p class="foo2-item">SARVESH NAIR</p>
+                <p class="foo2-item">JAYADEV PILLAI</p>
+                <p class="foo2-item">BHAVESH NAIR</p>
             </div>
             <div class="projectby">
                 <p class="foo2-head">Support</p>
@@ -117,18 +129,15 @@
             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
         
-        
+    </div> 
     </div> 
         <audio controls>
         <source src="file_example_MP3_1MG.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
         </audio>
     
-        <iframe width="1600" height="500"
+        <iframe width="1340" height="500"
         src="https://www.youtube.com/embed/lTTajzrSkCw">
         </iframe>
-
-       
-    
  </body>
  </html>
