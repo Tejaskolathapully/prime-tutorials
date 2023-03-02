@@ -5,7 +5,7 @@
 }
 
 .main{
-    background-image:linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url(1.jpg);
+    background-image:linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url(../1.jpg);
     height: 109vh;
     background-size: cover;
     background-position: center;
@@ -93,6 +93,10 @@ ul li a:hover{
     font-size: 15px;
     border-bottom-right-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+.btn:hover{
+    background: #fff;
+    color: #030303e3;
 }
 .btn:focus{
     outline: none;
@@ -183,10 +187,30 @@ ul li a:hover{
     color: black;
     font-weight: bold;
 }
+.git{
+    width: 240px;
+    height: 40px;
+    background: #e90f07e3;
+    border: none;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+.git:hover{
+    background: #fff;
+    color: #e90f07e3;
+}
+.git a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
 .form.link{
     font-family: arial;
     font-size: 17px;
-    padding-top: 20px;
+    padding-top: 1px;
     text-align: center;
 
 }
@@ -246,7 +270,7 @@ ul li a:hover{
     position:relative;
     right:10%;
     cursor: pointer;
-    left: 120px;
+    left: 140px;
 }
 .twitter-logo{
     width:40px;
@@ -265,7 +289,7 @@ ul li a:hover{
     border-radius:50%;
     position:relative;
     border:3px solid white;
-    left:220px;
+    left:190px;
     cursor: pointer;
 }
 .insta-logo:hover{
